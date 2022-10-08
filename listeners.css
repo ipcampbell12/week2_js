@@ -1,0 +1,43 @@
+body {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.grandparent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /*     need this for the flexbox to work fully */
+    height: 100vh;
+
+    background: red;
+    width: 450px;
+    height: 450Px;
+
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: blue;
+    width: 250px;
+    height: 250px;
+
+}
+
+.child {
+    background: green;
+    width: 125px;
+    height: 125px;
+}
